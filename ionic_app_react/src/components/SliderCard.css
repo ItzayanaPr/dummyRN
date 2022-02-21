@@ -1,0 +1,62 @@
+.color-blue {
+	color: #009FDD;
+}
+
+.card {
+	background: #0B1E3E;
+	color: #FFFFFF;
+	padding: 16px 0;
+	box-shadow: 0px 5px 10px rgba(11, 30, 62, 0.3);;
+}
+
+.card p {
+	font-size: 32px
+}
+
+.card .label {
+	font-size: 12px;
+}
+
+.card .super {
+	font-size: 20px
+}
+
+#balanceContainer {
+	font-size: 12px;
+	text-align: right;
+}
+
+#balanceContainer .progressBar {
+	border-radius: 8px;
+	margin: 4px 0;
+}
+
+.cardBand {
+	margin: 0;
+	height: 26px;
+	background-color: rgba(196, 196, 196, 0.2);
+	width: 100%;
+	position: absolute;
+	left: 0
+}
+
+#cardData {
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 48px;
+}
+
+#cardData #cardNumber{
+	font-size: 15px
+}
+
+#cardData .cardValidity {
+	width: 65%;
+}
+
+#cardData p{
+	font-size: 13px
+}
